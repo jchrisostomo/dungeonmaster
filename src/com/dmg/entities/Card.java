@@ -5,6 +5,9 @@ public class Card {
     private String name;
     private String description;
 
+    public Card() {
+    }
+
     public Card(Integer iD, String name, String description) {
         this.iD = iD;
         this.name = name;
