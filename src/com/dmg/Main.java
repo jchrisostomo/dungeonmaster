@@ -19,13 +19,11 @@ public class Main {
         System.out.println(card2);
 
         System.out.println("----------------------------------------");
-
         System.out.println("Rolagem d20: " + Dice.rollDice(20));
         System.out.println("Rolagem d2: " + Dice.rollDice(2));
         System.out.println("Rolagem d6: " + Dice.rollDice(6));
         System.out.println("Rolagem d100: " + Dice.rollDice(100));
-
+        System.out.println("Linux d20: " + Dice.rollDice(20));
         System.out.println("----------------------------------------");
-
     }
 }
