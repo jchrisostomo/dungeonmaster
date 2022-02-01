@@ -2,6 +2,7 @@ package com.dmg;
 
 import com.dmg.entities.Card;
 import com.dmg.entities.Character;
+import com.dmg.entities.Dice;
 import com.dmg.entities.Item;
 
 public class Main {
@@ -16,6 +17,15 @@ public class Main {
         System.out.println(card0);
         System.out.println(card1);
         System.out.println(card2);
+
+        System.out.println("----------------------------------------");
+
+        System.out.println("Rolagem d20: " + Dice.rollDice(20));
+        System.out.println("Rolagem d2: " + Dice.rollDice(2));
+        System.out.println("Rolagem d6: " + Dice.rollDice(6));
+        System.out.println("Rolagem d100: " + Dice.rollDice(100));
+
+        System.out.println("----------------------------------------");
 
     }
 }
